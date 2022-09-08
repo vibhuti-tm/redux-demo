@@ -6,6 +6,8 @@ const API_KEY = '1765b5904a13600bcd233ea6871d05d3';
 const PARAMS = 'page=1';
 const BASE_URL = `${API_URL}?api_key=${API_KEY}&${PARAMS}`;
 
+
+
 export const getMovies = () => {
     try {
       return async dispatch => {
